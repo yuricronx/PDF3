@@ -7,7 +7,7 @@ package arreglos;
 
 /**
  *
- * @author PC
+ * @author yojar
  */
 import java.util.Scanner;
 
