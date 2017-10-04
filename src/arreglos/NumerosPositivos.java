@@ -1,20 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package arreglos;
 
-/**
- *
- * @author yojar
- */
+
 import java.util.Scanner;
 
-//2.Desarrollar un programa en java que calcule la media(promedio) de los números positivos y
-//a parte de los números negativos de un arreglo de 10 números enteros.*/
 
-public class calcule_la_media {
+
+public class NumerosPositivos {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -44,14 +36,14 @@ public class calcule_la_media {
 
         //Calcular y mostrar las medias 
         if (pos != 0) {
-            System.out.println("Media de los valores positivos: " + sumaPos / pos);
+            System.out.println("La Media de los valores positivos: " + sumaPos / pos);
         } else {
-            System.out.println("No ha introducido numeros positivos");
+            System.out.println("No se a  introducido numeros positivos");
         }
         if (neg != 0) {
-            System.out.println("Media de los valores negativos: " + sumaNeg / neg);
+            System.out.println("La Media de los valores negativos: " + sumaNeg / neg);
         } else {
-            System.out.println("No ha introducido numeros negativos");
+            System.out.println("No se a  introducido numeros negativos");
         }
     }
 }
